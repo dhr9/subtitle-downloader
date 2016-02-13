@@ -9,6 +9,10 @@
 # Licence   : GPL v3
 #-------------------------------------------------------------------------------
 
+import sys
+print(sys.executable)
+sys.exit(0)
+
 # TODO: use another DB if subs are not found on subDB
 
 import hashlib
